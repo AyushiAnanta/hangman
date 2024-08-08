@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id ="banner" src="mainb.png" alt="">
+    <div id="main">
+        <div id="hangman">
+            <img class="hm" id="1" src="1.png" alt="">
+
+        </div>
+        <div id="controls">
+            <div id="section1">
+                <h3>Guess the Word : </h3>
+                <div id="refresh"><i class="fa-solid fa-arrows-rotate"></i></div>
+            </div>
+            <div id="section2">
+                <div id="guessWord">
+                    
+                </div>
+                <div id="score">Score : 0</div>
+            </div>
+            <div id="section3">
+                <div id="clue"></div>
+                <div id="input">
+                    
+                </div>
+                <div id="result">let's play !</div>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
